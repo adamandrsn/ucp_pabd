@@ -28,7 +28,30 @@ namespace ucp_pabd
 
         private void linkLabel1_Click(object sender, EventArgs e)
         {
+            Form2 form2 = new Form2();
+            form2.Show();
+            this.Hide();
+        }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'prodiTIDataSet.Mahasiswa' table. You can move, or remove it, as needed.
+            this.mahasiswaTableAdapter.Fill(this.prodiTIDataSet.Mahasiswa);
+
+        }
+
+       private void button2_MouseClick(object sender, MouseEventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.Show();
+            this.Hide();
         }
     }
 }

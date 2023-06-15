@@ -63,6 +63,17 @@ namespace ucp_pabd.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cyberpunk_skyscraper_upside_down_animated_movies_wallpaper_6f13244f1d114a1e998a42c94e3c5194 {
+            get {
+                object obj = ResourceManager.GetObject("cyberpunk-skyscraper-upside-down-animated-movies-wallpaper-6f13244f1d114a1e998a42" +
+                        "c94e3c5194", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap data_spreadsheet {
             get {
                 object obj = ResourceManager.GetObject("data-spreadsheet", resourceCulture);
